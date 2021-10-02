@@ -18,6 +18,9 @@ import Desafio5 from './desafios/Desafio5/Desafio5.js';
 import EstadoRefAula from './aulas/Estados/EstadoRefAula/EstadoRefAula.js';
 import EstadoRefAula2 from './aulas/Estados/EstadoRefAula/EstadoRefAula2.js';
 import EstadoRefProblemaTimeOut from './aulas/Estados/EstadoRefAula/EstadoRefProblemaTimeOut.js';
+import EstadoMemoAula1 from './aulas/Estados/EstadoMemoAula/EstadoMemoAula1.js';
+import EstadoCallbackAula1 from './aulas/Estados/EstadoCallbackAula/EstadoCallbackAula1.js';
+import EstadoCallbackAula2 from './aulas/Estados/EstadoCallbackAula/EstadoCallbackAula2.js';
 
 
 ReactDOM.render(
@@ -39,7 +42,10 @@ ReactDOM.render(
     {/* <Desafio5 /> */}
     {/* <EstadoRefAula /> */}
     {/* <EstadoRefAula2 /> */}
-    <EstadoRefProblemaTimeOut />
+    {/* <EstadoRefProblemaTimeOut /> */}
+    {/* <EstadoMemoAula1 /> */}
+    {/* <EstadoCallbackAula1 /> */}
+    <EstadoCallbackAula2 />
   </React.StrictMode>,
   document.getElementById('root')
 );
