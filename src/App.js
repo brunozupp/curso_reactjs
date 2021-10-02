@@ -1,25 +1,36 @@
-import logo from './logo.svg';
-import './App.css';
+import React from "react";
+import ComponenteReactFragment from "./ComponenteReactFragment";
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+const App = () => {
+
+    const nome = "Bruno"
+
+    const estiloH1 = {
+        color: 'blue',
+        fontSize: '20px',
+        fontFamily: 'Helvetica'
+    }
+
+    const frases = {
+        motivadora: "Hoje vai ser top",
+        deprimente: "Estou triste"
+    }
+
+    return <div>
+        <h1 style={estiloH1}>Meu App</h1>
+        <p style={{color: "red"}}>Um subtitulo aqui</p>
+        <br />
+        <a className="link" href="#" title="Um link para clicar">Origamid</a>
+        <br />
+        <form>
+            <label htmlFor="nome">Nome</label>
+            <input type="text" id="nome" />
+        </form>
+        <ComponenteReactFragment />
+        <p>{nome}</p>
+        <p>{frases.deprimente}</p>
+        <p>{frases.motivadora}</p>
     </div>
-  );
 }
 
 export default App;
