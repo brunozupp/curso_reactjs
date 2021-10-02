@@ -14,6 +14,7 @@ import Desafio4 from './desafios/Desafio4/Desafio4.js';
 import EstadoEffectAula1 from './aulas/Estados/EstadoEffectAula1.js';
 import EstadoEffectAula2 from './aulas/Estados/EstadoEffectAula2.js';
 import EstadoEffectAula3 from './aulas/Estados/EstadoEffectAula3/EstadoEffectAula3.js';
+import Desafio5 from './desafios/Desafio5/Desafio5.js';
 
 
 ReactDOM.render(
@@ -31,7 +32,8 @@ ReactDOM.render(
     {/* <Desafio4 /> */}
     {/* <EstadoEffectAula1 /> */}
     {/* <EstadoEffectAula2 /> */}
-    <EstadoEffectAula3 />
+    {/* <EstadoEffectAula3 /> */}
+    <Desafio5 />
   </React.StrictMode>,
   document.getElementById('root')
 );
