@@ -21,6 +21,8 @@ import EstadoRefProblemaTimeOut from './aulas/Estados/EstadoRefAula/EstadoRefPro
 import EstadoMemoAula1 from './aulas/Estados/EstadoMemoAula/EstadoMemoAula1.js';
 import EstadoCallbackAula1 from './aulas/Estados/EstadoCallbackAula/EstadoCallbackAula1.js';
 import EstadoCallbackAula2 from './aulas/Estados/EstadoCallbackAula/EstadoCallbackAula2.js';
+import ContextAula1 from './aulas/Contexto/ContextoAula1/ContextAula1.js';
+import ContextAula2 from './aulas/Contexto/ContextoAula2/ContextAula2.js';
 
 
 ReactDOM.render(
@@ -45,7 +47,9 @@ ReactDOM.render(
     {/* <EstadoRefProblemaTimeOut /> */}
     {/* <EstadoMemoAula1 /> */}
     {/* <EstadoCallbackAula1 /> */}
-    <EstadoCallbackAula2 />
+    {/* <EstadoCallbackAula2 /> */}
+    {/* <ContextAula1 /> */}
+    <ContextAula2 />
   </React.StrictMode>,
   document.getElementById('root')
 );
