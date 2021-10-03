@@ -24,6 +24,8 @@ import EstadoCallbackAula2 from './aulas/Estados/EstadoCallbackAula/EstadoCallba
 import ContextAula1 from './aulas/Contexto/ContextoAula1/ContextAula1.js';
 import ContextAula2 from './aulas/Contexto/ContextoAula2/ContextAula2.js';
 import Desafio6 from './desafios/Desafio6/Desafio6.js';
+import EstadoCustomizadoAula1 from './aulas/Estados/EstadoCustomizadoAula1/EstadoCustomizadoAula1.js';
+import EstadoCustomizadoAula2 from './aulas/Estados/EstadoCustomizadoAula2/EstadoCustomizadoAula2.js';
 
 
 ReactDOM.render(
@@ -51,7 +53,9 @@ ReactDOM.render(
     {/* <EstadoCallbackAula2 /> */}
     {/* <ContextAula1 /> */}
     {/* <ContextAula2 /> */}
-    <Desafio6 />
+    {/* <Desafio6 /> */}
+    {/* <EstadoCustomizadoAula1 /> */}
+    <EstadoCustomizadoAula2 />
   </React.StrictMode>,
   document.getElementById('root')
 );
