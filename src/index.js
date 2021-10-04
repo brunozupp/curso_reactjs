@@ -41,6 +41,7 @@ import ModuloFormularioComponente1 from './aulas/ModuloFormulario/Aula6/ModuloFo
 import ModuloFormularioValidacao1 from './aulas/ModuloFormulario/Aula7/ModuloFormularioValidacao1.js';
 import ModuloFormularioHookForm from './aulas/ModuloFormulario/Aula8/ModuloFormularioHookForm.js';
 import Desafio9 from './desafios/Desafio9/Desafio9.js';
+import ModuloCSSImport1 from './aulas/ModuloCSS/ModuloCSSImport1/ModuloCSSImport1.js';
 
 
 ReactDOM.render(
@@ -85,7 +86,8 @@ ReactDOM.render(
     {/* <ModuloFormularioComponente1 /> */}
     {/* <ModuloFormularioValidacao1 /> */}
     {/* <ModuloFormularioHookForm /> */}
-    <Desafio9 />
+    {/* <Desafio9 /> */}
+    <ModuloCSSImport1 />
   </React.StrictMode>,
   document.getElementById('root')
 );
