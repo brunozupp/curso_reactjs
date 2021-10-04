@@ -37,6 +37,7 @@ import ModuloFormularioRadio1 from './aulas/ModuloFormulario/Aula4/ModuloFormula
 import ModuloFormularioCheckbox1 from './aulas/ModuloFormulario/Aula5/ModuloFormularioCheckbox1.js';
 import ModuloFormularioCheckbox2 from './aulas/ModuloFormulario/Aula5/ModuloFormularioCheckbox2.js';
 import Desafio8 from './desafios/Desafio8/Desafio8.js';
+import ModuloFormularioComponente1 from './aulas/ModuloFormulario/Aula6/ModuloFormularioComponente1.js';
 
 
 ReactDOM.render(
@@ -77,7 +78,8 @@ ReactDOM.render(
     {/* <ModuloFormularioRadio1 /> */}
     {/* <ModuloFormularioCheckbox1 /> */}
     {/* <ModuloFormularioCheckbox2 /> */}
-    <Desafio8 />
+    {/* <Desafio8 /> */}
+    <ModuloFormularioComponente1 />
   </React.StrictMode>,
   document.getElementById('root')
 );
