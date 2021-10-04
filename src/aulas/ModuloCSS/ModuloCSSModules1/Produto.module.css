@@ -1,0 +1,25 @@
+/* REGRA DESSE MODO: NÃO UTILIZAR O HIFEN PRA SEPARAR (item-Produto). SEMPRE UTILIZAR CAMELCASE (itemProduto)
+Vai dar certo se utilizar o hifen, mas pode correr o risco de não dar certo */
+
+.titulo, .preco {
+    color: #43c;
+}
+
+.preco {
+    font-weight: bold;
+}
+
+
+/* Usando variável */
+@value peso: bold;
+
+.descricao-produto {
+    text-transform: uppercase;
+    font-weight: peso;
+}
+
+.comprar {
+    transform: rotate(90deg) translateY(-120px); 
+}
+
+
