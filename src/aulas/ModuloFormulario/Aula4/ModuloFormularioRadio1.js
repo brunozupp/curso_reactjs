@@ -49,7 +49,9 @@ const ModuloFormularioRadio1 = () => {
             <hr />
 
             <label>
-                {/* Usando o atributo checked para separar o grupo */}
+                {/* Usando o atributo checked para separar o grupo .
+                    IMPORTANTE: Esse daqui é PRA SER UTILIZADO caso tenha que ter um valor inicial
+                */}
                 <input type="radio" value="gol" checked={carro === 'gol'} onChange={handleChangeCarro} />
                 Gol
             </label>

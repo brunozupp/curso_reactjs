@@ -34,6 +34,8 @@ import Desafio7_2 from './desafios/Desafio7/Desafio7_2.js';
 import ModuloFormularioTextarea1 from './aulas/ModuloFormulario/Aula2/ModuloFormularioTextarea1.js';
 import ModuloFormularioSelect1 from './aulas/ModuloFormulario/Aula3/ModuloFormularioSelect1.js';
 import ModuloFormularioRadio1 from './aulas/ModuloFormulario/Aula4/ModuloFormularioRadio1.js';
+import ModuloFormularioCheckbox1 from './aulas/ModuloFormulario/Aula5/ModuloFormularioCheckbox1.js';
+import ModuloFormularioCheckbox2 from './aulas/ModuloFormulario/Aula5/ModuloFormularioCheckbox2.js';
 
 
 ReactDOM.render(
@@ -71,7 +73,9 @@ ReactDOM.render(
     {/* <Desafio7_2 /> */}
     {/* <ModuloFormularioTextarea1 /> */}
     {/* <ModuloFormularioSelect1 /> */}
-    <ModuloFormularioRadio1 />
+    {/* <ModuloFormularioRadio1 /> */}
+    {/* <ModuloFormularioCheckbox1 /> */}
+    <ModuloFormularioCheckbox2 />
   </React.StrictMode>,
   document.getElementById('root')
 );
