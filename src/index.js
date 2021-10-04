@@ -32,6 +32,7 @@ import Desafio7 from './desafios/Desafio7/Desafio7.js';
 import Desafio7_1 from './desafios/Desafio7/Desafio7_1.js';
 import Desafio7_2 from './desafios/Desafio7/Desafio7_2.js';
 import ModuloFormularioTextarea1 from './aulas/ModuloFormulario/Aula2/ModuloFormularioTextarea1.js';
+import ModuloFormularioSelect1 from './aulas/ModuloFormulario/Aula3/ModuloFormularioSelect1.js';
 
 
 ReactDOM.render(
@@ -67,7 +68,8 @@ ReactDOM.render(
     {/* <Desafio7 /> */}
     {/* <Desafio7_1 /> */}
     {/* <Desafio7_2 /> */}
-    <ModuloFormularioTextarea1 />
+    {/* <ModuloFormularioTextarea1 /> */}
+    <ModuloFormularioSelect1 />
   </React.StrictMode>,
   document.getElementById('root')
 );
