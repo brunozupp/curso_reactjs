@@ -44,6 +44,8 @@ import Desafio9 from './desafios/Desafio9/Desafio9.js';
 import ModuloCSSImport1 from './aulas/ModuloCSS/ModuloCSSImport1/ModuloCSSImport1.js';
 import ModuloCSSModule1 from './aulas/ModuloCSS/ModuloCSSModules1/ModuloCSSModule1.js';
 import ModuleStyledComponents1 from './aulas/ModuloCSS/ModuleStyledComponents1/ModuleStyledComponents1.js';
+import ModuleCSSFrameworkBootstrap1 from './aulas/ModuloCSS/ModuloCSSFramework/ModuleCSSFrameworkBootstrap1.js';
+import ModuleCSSFrameworkBootstrap2 from './aulas/ModuloCSS/ModuloCSSFramework/ModuleCSSFrameworkBootstrap2.js';
 
 
 ReactDOM.render(
@@ -91,7 +93,9 @@ ReactDOM.render(
     {/* <Desafio9 /> */}
     {/* <ModuloCSSImport1 /> */}
     {/* <ModuloCSSModule1 /> */}
-    <ModuleStyledComponents1 />
+    {/* <ModuleStyledComponents1 /> */}
+    {/* <ModuleCSSFrameworkBootstrap1 /> */}
+    <ModuleCSSFrameworkBootstrap2 />
   </React.StrictMode>,
   document.getElementById('root')
 );
