@@ -1,0 +1,26 @@
+.container {
+    overflow: hidden; /* Esconder o que estiver fora da tela */
+}
+
+.content {
+    display: flex;
+    z-index: 100;
+    transition: transform 0.3s ease;/*sempre que o transform modificar, quero que faça num tempo de 0.3s e não de forma abrupta*/
+}
+
+.item {
+    width: 80%;
+    flex-shrink: 0; /* Não comprima/compacte meus itens, deixe eles do tamanho que eu decidi (80% de width) */
+    margin: 0 10%;
+    padding: 10rem 0;
+    background-color: #eee;
+    border-radius: 4px;
+    text-align: center;
+}
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+    margin: 1rem auto;
+    width: 80%;
+}
