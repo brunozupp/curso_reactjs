@@ -1,0 +1,17 @@
+.buttonNav {
+    margin-right: 10px;
+    text-decoration: none;
+    color: black;
+    background-color: #ececec;
+    padding: 10px 20px;
+    border-radius: 5px;
+}
+
+.buttonNav:hover {
+    color: black;
+    background-color: #d7d7d7;
+}
+
+.container {
+    margin: 50px 0
+}

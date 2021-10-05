@@ -51,6 +51,7 @@ import ModuloAnimacao2 from './aulas/ModuloCSS/ModuloAnimacao2/ModuloAnimacao2.j
 import ModuloImagens1 from './aulas/ModuloCSS/ModuloImagens1/ModuloImagens1.js';
 import ModuloImagens2 from './aulas/ModuloCSS/ModuloImagens1/ModuloImagens2.js';
 import ModuloRouter1 from './aulas/ModuloNavegacao/ModuloRouter1/ModuloRouter1.js';
+import Desafio10 from './desafios/Desafio10/Desafio10.js';
 
 
 ReactDOM.render(
@@ -105,7 +106,8 @@ ReactDOM.render(
     {/* <ModuloAnimacao2 /> */}
     {/* <ModuloImagens1 /> */}
     {/* <ModuloImagens2 /> */}
-    <ModuloRouter1 />
+    {/* <ModuloRouter1 /> */}
+    <Desafio10 />
   </React.StrictMode>,
   document.getElementById('root')
 );

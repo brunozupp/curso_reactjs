@@ -1,0 +1,33 @@
+.container {
+    display: flex;
+}
+
+.imageContact {
+    height: 400px;
+}
+
+.cardContact {
+    margin-left: 20px;
+}
+
+.titleCard {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.containerItemContact {
+    display: flex;
+    align-items: flex-end;
+}
+
+.lineBottom {
+    height: 2px;
+    width: 30px;
+    background-color: #ece;
+    transform: translateY(-5px);
+}
+
+.itemContact {
+    /* margin: 0 0; */
+    margin-left: 10px;
+}
