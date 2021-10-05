@@ -46,6 +46,7 @@ import ModuloCSSModule1 from './aulas/ModuloCSS/ModuloCSSModules1/ModuloCSSModul
 import ModuleStyledComponents1 from './aulas/ModuloCSS/ModuleStyledComponents1/ModuleStyledComponents1.js';
 import ModuleCSSFrameworkBootstrap1 from './aulas/ModuloCSS/ModuloCSSFramework/ModuleCSSFrameworkBootstrap1.js';
 import ModuleCSSFrameworkBootstrap2 from './aulas/ModuloCSS/ModuloCSSFramework/ModuleCSSFrameworkBootstrap2.js';
+import ModuloAnimacao1 from './aulas/ModuloCSS/ModuloAnimacao1/ModuloAnimacao1.js';
 
 
 ReactDOM.render(
@@ -95,7 +96,8 @@ ReactDOM.render(
     {/* <ModuloCSSModule1 /> */}
     {/* <ModuleStyledComponents1 /> */}
     {/* <ModuleCSSFrameworkBootstrap1 /> */}
-    <ModuleCSSFrameworkBootstrap2 />
+    {/* <ModuleCSSFrameworkBootstrap2 /> */}
+    <ModuloAnimacao1 />
   </React.StrictMode>,
   document.getElementById('root')
 );
