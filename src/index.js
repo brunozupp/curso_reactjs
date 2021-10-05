@@ -43,6 +43,7 @@ import ModuloFormularioHookForm from './aulas/ModuloFormulario/Aula8/ModuloFormu
 import Desafio9 from './desafios/Desafio9/Desafio9.js';
 import ModuloCSSImport1 from './aulas/ModuloCSS/ModuloCSSImport1/ModuloCSSImport1.js';
 import ModuloCSSModule1 from './aulas/ModuloCSS/ModuloCSSModules1/ModuloCSSModule1.js';
+import ModuleStyledComponents1 from './aulas/ModuloCSS/ModuleStyledComponents1/ModuleStyledComponents1.js';
 
 
 ReactDOM.render(
@@ -89,7 +90,8 @@ ReactDOM.render(
     {/* <ModuloFormularioHookForm /> */}
     {/* <Desafio9 /> */}
     {/* <ModuloCSSImport1 /> */}
-    <ModuloCSSModule1 />
+    {/* <ModuloCSSModule1 /> */}
+    <ModuleStyledComponents1 />
   </React.StrictMode>,
   document.getElementById('root')
 );
