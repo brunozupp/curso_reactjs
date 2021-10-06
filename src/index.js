@@ -55,6 +55,7 @@ import Desafio10 from './desafios/Desafio10/Desafio10.js';
 import AulaPrototype1 from './aulas/ModuloMaisReact/AulaPrototype1/AulaPrototype1.js';
 import AulaLazySuspense from './aulas/ModuloMaisReact/AulaLazySuspense/AulaLazySuspense.js';
 import AulaReactMemo from './aulas/ModuloMaisReact/AulaReactMemo/AulaReactMemo.js';
+import AulaUseReducer from './aulas/ModuloMaisReact/AulaUseReducer/AulaUseReducer.js';
 
 
 ReactDOM.render(
@@ -113,7 +114,8 @@ ReactDOM.render(
     {/* <Desafio10 /> */}
     {/* <AulaPrototype1 /> */}
     {/* <AulaLazySuspense /> */}
-    <AulaReactMemo />
+    {/* <AulaReactMemo /> */}
+    <AulaUseReducer />
   </React.StrictMode>,
   document.getElementById('root')
 );
