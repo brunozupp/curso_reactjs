@@ -56,6 +56,7 @@ import AulaPrototype1 from './aulas/ModuloMaisReact/AulaPrototype1/AulaPrototype
 import AulaLazySuspense from './aulas/ModuloMaisReact/AulaLazySuspense/AulaLazySuspense.js';
 import AulaReactMemo from './aulas/ModuloMaisReact/AulaReactMemo/AulaReactMemo.js';
 import AulaUseReducer from './aulas/ModuloMaisReact/AulaUseReducer/AulaUseReducer.js';
+import AulaClasses from './aulas/ModuloMaisReact/AulaClasses/AulaClasses.js';
 
 
 ReactDOM.render(
@@ -115,7 +116,8 @@ ReactDOM.render(
     {/* <AulaPrototype1 /> */}
     {/* <AulaLazySuspense /> */}
     {/* <AulaReactMemo /> */}
-    <AulaUseReducer />
+    {/* <AulaUseReducer /> */}
+    <AulaClasses />
   </React.StrictMode>,
   document.getElementById('root')
 );
